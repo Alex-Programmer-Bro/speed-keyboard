@@ -13,10 +13,10 @@ interface Prop {
 export const Controller = ({ time, onTimeChange, onPlay, onPasue, onStop, onReset }: Prop) => {
   const [playing, setPlaying] = useState(false);
 
-  return <Card className="w-[260px]">
+  return <Card>
     <CardHeader className="flex gap-3">
       <div className="flex flex-col">
-        <p className="text-md">按键练习</p>
+        <p className="text-md">控制器</p>
       </div>
     </CardHeader>
     <Divider />
